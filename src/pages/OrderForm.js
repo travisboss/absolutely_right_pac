@@ -31,35 +31,39 @@ class ContactForm extends Component {
               <p>All Family and Friends orders ship free!</p>
             </div>
           </header>
+          <div className="wrapper">
+            <div className="inner">
+              <h3>Price: $25 Unisex</h3>
+              <ul>
+                <li>100% Airlume combed and ringspun cotton</li>
+                <li>Unisex fit</li>
+                <li>Tear away label</li>
+                <li>Runs true to size</li>
+              </ul>
+            </div>
+          </div>
           <section className="container">
-            <img className="item" src={ladiesNavy} alt="" />
             <img className="item" src={unisexNavy} alt="" />
-            <img className="item" src={ladiesRed} alt="" />
             <img className="item" src={unisexRed} alt="" />
-            <img className="item" src={ladiesRoyalBlue} alt="" />
             <img className="item" src={unisexRoyalBlue} alt="" />
             <img className="item" src={unisexShirtFit} alt="" />
           </section>
-          <div className="center">
-            <div className="wrapper">
-              <div className="inner">
-                <h3>Price: $25</h3>
-                <ul>
-                  <li>100% Airlume combed and ringspun cotton</li>
-                  <li>Unisex fit</li>
-                  <li>Tear away label</li>
-                  <li>Runs true to size</li>
-                </ul>
-                <h3>Price: $25</h3>
-                <ul>
-                  <li>100% Airlume combed and ringspun cotton </li>
-                  <li>Slim fit with longer body length</li>
-                  <li>Sewn in label</li>
-                  <li>Runs smaller than usual</li>
-                </ul>
-              </div>
+          <div className="wrapper">
+            <div className="inner">
+              <h3>Price: $25 Ladies</h3>
+              <ul>
+                <li>100% Airlume combed and ringspun cotton </li>
+                <li>Slim fit with longer body length</li>
+                <li>Sewn in label</li>
+                <li>Runs smaller than usual</li>
+              </ul>
             </div>
           </div>
+          <section className="container">
+            <img className="item" src={ladiesNavy} alt="" />
+            <img className="item" src={ladiesRed} alt="" />
+            <img className="item" src={ladiesRoyalBlue} alt="" />
+          </section>
 
           <div className="wrapper">
             <div className="inner">

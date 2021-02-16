@@ -28,8 +28,8 @@
   },
   "scripts": {
     "develop": "gatsby develop",
-    "build": "yarn autoclean && gatsby build",
-    "deploy": "yarn autoclean && gatsby build --prefix-paths && gh-pages -d public",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",

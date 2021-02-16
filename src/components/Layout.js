@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
 import Footer from './Footer';
-import SideBar from './Sidebar';
+import Sidebar from './Sidebar';
 
 class Layout extends Component {
   constructor(props) {
@@ -56,7 +56,7 @@ class Layout extends Component {
               className={isPreloaded ? ' main-body  is-preload' : ' main-body'}
             >
               <div id="page-wrapper">
-                <SideBar fullMenu={fullMenu} />
+                <Sidebar />
                 {children}
                 <Footer />
               </div>

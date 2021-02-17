@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-const IndexPage = () => (
+const IndexPage = styles => (
   <Layout fullMenu>
     <section id="wrapper">
       <header>
@@ -11,7 +11,7 @@ const IndexPage = () => (
         </div>
       </header>
 
-      <div className="wrapper">
+      <div style={{ marginTop: 0, marginBottom: 0 }} className="wrapper">
         <div className="inner">
           <section>
             <p>

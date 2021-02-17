@@ -28,7 +28,7 @@ class Layout extends Component {
   }
 
   render() {
-    const { children, fullMenu } = this.props;
+    const { children } = this.props;
     const { isPreloaded } = this.state;
     return (
       <StaticQuery

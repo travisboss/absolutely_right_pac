@@ -8,9 +8,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <picture>
-            <img className="logoResize" src={logo} alt="" />
-          </picture>
+          <img className="logoResize" src={logo} alt="" />
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>

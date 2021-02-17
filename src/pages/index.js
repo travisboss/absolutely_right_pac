@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import logo from '../assets/img/absolutlyright_logo_nobackground.png';
+import logo from '../assets/img/website-icon.png';
 
 import config from '../../config';
 const IndexPage = () => (

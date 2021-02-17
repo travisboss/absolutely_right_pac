@@ -7,5 +7,5 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/absolutely_right_pac/`, // This path is subpath of your hosting https://domain/portfolio
 };

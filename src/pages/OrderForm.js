@@ -7,7 +7,7 @@ import ladiesRed from '../assets/images/LadiesRed.jpeg';
 import unisexRed from '../assets/images/UnisexRed.png';
 import ladiesRoyalBlue from '../assets/images/LadiesRoyalBlue.jpeg';
 import unisexRoyalBlue from '../assets/images/UnixesRoyalBlue.png';
-// import ladiesShirtFit from '../assets/images/Ladiesshirtfit.webp';
+import ladiesShirtFit from '../assets/images/LadiesSizeFit.jpg';
 import unisexShirtFit from '../assets/images/UnisexShirtFit.png';
 
 const formUrl =
@@ -63,6 +63,7 @@ class ContactForm extends Component {
             <img className="item" src={ladiesNavy} alt="" />
             <img className="item" src={ladiesRed} alt="" />
             <img className="item" src={ladiesRoyalBlue} alt="" />
+            <img className="item" src={ladiesShirtFit} alt="" />
           </section>
 
           <div className="wrapper">
@@ -115,8 +116,9 @@ class ContactForm extends Component {
                 </div>
                 <ul className="actions">
                   <li>
-                    <input type="submit" value="Send Message" />
+                    <input type="submit" value="Submit" />
                   </li>
+                  <input type="hidden" name="after" value="/OrderForm" />
                 </ul>
               </form>
             </div>
@@ -178,6 +180,9 @@ class EmailForm extends Component {
     });
 
     this.setState({ submitted: true });
+
+    alert(`Thank You ${this.state.name}`);
+    window.location = '/OrderForm';
   };
 
   render() {

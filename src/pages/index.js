@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import logo from '../assets/img/logo.png';
-import pic1 from '../assets/images/pic01.jpg';
+import pic1 from '../assets/images/pic09.jpg';
 import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic3 from '../assets/images/pic07.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -19,7 +19,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <img src={pic1} alt="" className="image" />
+          <img src={pic2} alt="" className="image" />
           <div className="content">
             <p>
               Absolutely Right is a conservative woman led PAC. After spending
@@ -33,7 +33,7 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <img src={pic2} alt="" className="image" />
+          <img src={pic1} alt="" className="image" />
           <div className="content">
             <p>
               Comprised of best-in-class, private sector, technology and

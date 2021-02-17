@@ -33,7 +33,7 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <img src={pic1} alt="" className="image" />
+          <img src={pic3} alt="" className="image" />
           <div className="content">
             <p>
               Comprised of best-in-class, private sector, technology and
@@ -47,7 +47,7 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <img src={pic3} alt="" className="image" />
+          <img src={pic1} alt="" className="image" />
           <div className="content">
             <p>
               Absolutely Right will focus on races up-and-down the ballot in

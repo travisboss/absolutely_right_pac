@@ -9,6 +9,7 @@ import ladiesRoyalBlue from '../assets/images/LadiesRoyalBlue.jpeg';
 import unisexRoyalBlue from '../assets/images/UnixesRoyalBlue.png';
 import ladiesShirtFit from '../assets/images/LadiesSizeFit.jpg';
 import unisexShirtFit from '../assets/images/UnisexShirtFit.png';
+import shirtView from '../assets/images/trump-thumbs.png';
 
 const formUrl =
   'https://script.google.com/macros/s/AKfycbz4hT14AOvw48nUASRiw87m45XvIQ58Xu_GkBvzb92EHTcyMxni/exec';
@@ -23,7 +24,7 @@ class ContactForm extends Component {
         <section id="wrapper">
           <header>
             <div className="inner">
-              <h2>Family and Friends pre-ordering is now open!</h2>
+              <h2>Family and Friends pre-ordering is open!</h2>
               <p>
                 Fill out the form and you will be contacted via email to
                 complete your order.
@@ -33,7 +34,14 @@ class ContactForm extends Component {
           </header>
           <div className="wrapper">
             <div className="inner">
-              <h3>Price: $25 Unisex</h3>
+              <section className="container">
+                <img className="reduceImage" src={shirtView} alt="" />
+              </section>
+            </div>
+          </div>
+          <div className="wrapper">
+            <div className="inner">
+              <h3>Price: $25 Unisex - Free Shipping</h3>
               <ul>
                 <li>100% Airlume combed and ringspun cotton</li>
                 <li>Unisex fit</li>
@@ -50,7 +58,7 @@ class ContactForm extends Component {
           </section>
           <div className="wrapper">
             <div className="inner">
-              <h3>Price: $25 Ladies</h3>
+              <h3>Price: $25 Ladies - Free Shipping</h3>
               <ul>
                 <li>100% Airlume combed and ringspun cotton </li>
                 <li>Slim fit with longer body length</li>

@@ -189,7 +189,6 @@ class EmailForm extends Component {
 
     this.setState({ submitted: true });
 
-    alert(`Thank You ${this.state.name}`);
     window.location = '/OrderForm';
   };
 

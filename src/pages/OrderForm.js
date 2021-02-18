@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { navigate } from 'gatsby';
 import axios from 'axios';
 import Layout from '../components/Layout';
 import ladiesNavy from '../assets/images/LadiesNavy.jpeg';
@@ -13,9 +14,6 @@ import shirtView from '../assets/images/trump-thumbs.png';
 
 const formUrl =
   'https://script.google.com/macros/s/AKfycbz4hT14AOvw48nUASRiw87m45XvIQ58Xu_GkBvzb92EHTcyMxni/exec';
-const ThankYou = () => (
-  <div className="fw4 lh-title mt0 avenir black">Thank You!</div>
-);
 
 class ContactForm extends Component {
   render() {
@@ -126,8 +124,12 @@ class ContactForm extends Component {
                   <li>
                     <input type="submit" value="Submit" />
                   </li>
-                  <input type="hidden" name="after" value="/OrderForm" />
                 </ul>
+                <input
+                  type="hidden"
+                  name="after"
+                  value="https://absolutelyright.org"
+                ></input>
               </form>
             </div>
           </div>
@@ -186,23 +188,18 @@ class EmailForm extends Component {
         style
       )}&color=${encodeURIComponent(color)}`,
     });
-
+    navigate('/OrderForm');
     this.setState({ submitted: true });
   };
 
   render() {
-    const { submitted } = this.state;
-
     return (
       <div className="center">
-        {submitted ? (
-          <ThankYou />
-        ) : (
-          <ContactForm
-            onChange={this.updateValues}
-            onSubmit={this.handleSubmit}
-          />
-        )}
+        <ContactForm
+          onChange={this.updateValues}
+          onSubmit={this.handleSubmit}
+        />
+        )
       </div>
     );
   }

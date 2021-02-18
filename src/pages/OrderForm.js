@@ -188,8 +188,6 @@ class EmailForm extends Component {
     });
 
     this.setState({ submitted: true });
-
-    window.location = '/OrderForm';
   };
 
   render() {

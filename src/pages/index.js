@@ -21,12 +21,7 @@ const IndexPage = () => (
         <div className="inner">
           <img src={pic2} alt="" className="image" />
           <div className="content">
-            <p>
-              Absolutely Right is a conservative woman led PAC. After spending
-              more than 10 years working with government agencies and now
-              staying home to raise her four children, Absolutely Right was
-              founded to support pro-freedom and liberty-minded candidates.
-            </p>
+            <p>{config.manifestIndexLineOne}</p>
           </div>
         </div>
       </section>
@@ -35,12 +30,7 @@ const IndexPage = () => (
         <div className="inner">
           <img src={pic3} alt="" className="image" />
           <div className="content">
-            <p>
-              Comprised of best-in-class, private sector, technology and
-              communication experts, Absolutely Right leverages bleeding-edge
-              digital, connection, and engagement strategies to give
-              conservatives a strong advantage to win campaigns.
-            </p>
+            <p>{config.manifestIndexLineTwo}</p>
           </div>
         </div>
       </section>
@@ -49,14 +39,7 @@ const IndexPage = () => (
         <div className="inner">
           <img src={pic1} alt="" className="image" />
           <div className="content">
-            <p>
-              Absolutely Right will focus on races up-and-down the ballot in
-              which the outcome will have significant impact, immediately and
-              for years to come, with an emphasis towards engaging in
-              under-the-radar and underserved races, which don’t garner much
-              attention, yet the result of which would significantly alter the
-              political landscape.
-            </p>
+            <p>{config.manifestIndexLineThree}</p>
           </div>
         </div>
       </section>

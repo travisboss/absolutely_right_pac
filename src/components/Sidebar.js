@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
 import { Link } from 'gatsby';
+import config from '../../config';
 export default function SideBar({ fullMenu }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
     <>
       <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
         <h1>
-          <Link to="/">Home</Link>
+          <Link to="/">{config.manifestHome}</Link>
         </h1>
 
         <nav>
@@ -19,7 +20,7 @@ export default function SideBar({ fullMenu }) {
             }}
             className="menuToggle"
           >
-            <span>Menu</span>
+            <span>{config.manifestMenu}</span>
           </a>
         </nav>
       </header>

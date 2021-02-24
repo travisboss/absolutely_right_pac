@@ -1,14 +1,19 @@
 module.exports = {
   siteTitle: 'Absolutely Right', // <title>
+  siteUrl: 'https://absolutelyright.org', // <title>
   manifestName: 'SolidState',
   manifestPhone: '(612) 568-7078‬',
   manifestEmail: 'contact(at)absolutelyright.org',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'PAC', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/logo.png',
+  manifestMenu: 'Menu',
+  manifestHome: 'Home',
+  manifestPrivacyPolicy: 'Privacy Policy',
+  manifestTermsAndConditons: 'Terms and Conditions',
   manifestRefundPolicy:
     'Refunds are not available for donations, payments or gifts. All transactions are final. However, our team can help research and resolve problems that arise with transactions. At the discretion of Absolutely Right a refund may be issued to a Donor. Any donation refunded from Absolutely Right to a Donor will be returned via the payment method the Donor used to make the donation or via a means outside of the Service such as a paper check. EACH DONOR ACKNOWLEDGES AND AGREES THAT ALL SERVICE CHARGES ARE NON-REFUNDABLE BY ANEDOT IN WHOLE OR IN PART. ',
   manifestFooterLineOne:

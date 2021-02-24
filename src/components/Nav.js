@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import config from '../../config';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
     <nav id="menu">
       <div className="inner">
-        <h2>Menu</h2>
+        <h2>{config.manifestMenu}</h2>
         <ul className="links">
           <li>
             <Link
@@ -14,7 +15,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/"
             >
-              Home
+              {config.manifestHome}
             </Link>
           </li>
           <li>
@@ -24,7 +25,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/PrivacyPolicy"
             >
-              Privacy Policy
+              {config.manifestPrivacyPolicy}
             </Link>
           </li>
         </ul>

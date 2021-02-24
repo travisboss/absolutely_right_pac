@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="inner">
         <ul className="copyright container">
           <li className="item">
-            <a href="/PrivacyPolicy">Privacy Policy</a>
+            <a href="/PrivacyPolicy">{config.manifestPrivacyPolicy}</a>
           </li>
           <li className="item">
             <a
@@ -14,7 +14,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              Terms and Conditions
+              {config.manifestTermsAndConditons}
             </a>
           </li>
         </ul>

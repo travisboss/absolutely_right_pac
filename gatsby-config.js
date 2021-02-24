@@ -4,6 +4,7 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    url: config.siteUrl,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +20,10 @@ module.exports = {
         theme_color: config.manifestThemeColor,
         display: config.manifestDisplay,
         icon: config.manifestIcon, // This path is relative to the root of the site.
+        menu: config.manifestMenu,
+        home: config.manifestHome,
+        privacy_policy: config.manifestPrivacyPolicy,
+        terms_and_conditons: config.manifestTermsAndConditons,
         refund_policy: config.manifestRefundPolicy,
         footer_line_one: config.manifestFooterLineOne,
         footer_line_two: config.manifestFooterLineTwo,

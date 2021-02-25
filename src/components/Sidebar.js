@@ -13,14 +13,12 @@ export default function SideBar({ fullMenu }) {
 
         <nav>
           <a
-            href="#menu"
-            onClick={e => {
-              e.preventDefault();
-              toggleHeader(!headerOpen);
-            }}
-            className="menuToggle"
+            href="https://absolutelyright.groovekart.com/donation/8-donation"
+            target="_blank"
+            rel="noreferrer"
+            class="button"
           >
-            <span>{config.manifestMenu}</span>
+            Donate
           </a>
         </nav>
       </header>

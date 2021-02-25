@@ -17,6 +17,9 @@ export default function Footer() {
               {config.manifestTermsAndConditons}
             </a>
           </li>
+          <li className="item">
+            <a href="/RefundPolicy">{config.manifestRefund}</a>
+          </li>
         </ul>
         <p>{config.manifestFooterLineOne}</p>
         <p>{config.manifestFooterLineTwo}</p>

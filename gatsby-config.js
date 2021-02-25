@@ -25,6 +25,7 @@ module.exports = {
         privacy_policy: config.manifestPrivacyPolicy,
         terms_and_conditons: config.manifestTermsAndConditons,
         refund_policy: config.manifestRefundPolicy,
+        refund: config.manifestRefund,
         footer_line_one: config.manifestFooterLineOne,
         footer_line_two: config.manifestFooterLineTwo,
         index_line_one: config.manifestIndexLineOne,

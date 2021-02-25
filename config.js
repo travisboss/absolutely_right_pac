@@ -14,8 +14,9 @@ module.exports = {
   manifestHome: 'Home',
   manifestPrivacyPolicy: 'Privacy Policy',
   manifestTermsAndConditons: 'Terms and Conditions',
+  manifestRefund: 'Refund Policy',
   manifestRefundPolicy:
-    'Refunds are not available for donations, payments or gifts. All transactions are final. However, our team can help research and resolve problems that arise with transactions. At the discretion of Absolutely Right a refund may be issued to a Donor. Any donation refunded from Absolutely Right to a Donor will be returned via the payment method the Donor used to make the donation or via a means outside of the Service such as a paper check. EACH DONOR ACKNOWLEDGES AND AGREES THAT ALL SERVICE CHARGES ARE NON-REFUNDABLE BY ANEDOT IN WHOLE OR IN PART. ',
+    'Refunds are not available for donations, payments or gifts. All transactions are final. However, our team can help research and resolve problems that arise with transactions. At the discretion of Absolutely Right a refund may be issued to a Donor. Any donation refunded from Absolutely Right to a Donor will be returned via the payment method the Donor used to make the donation or via a means outside of the Service such as a paper check. EACH DONOR ACKNOWLEDGES AND AGREES THAT ALL SERVICE CHARGES ARE NON-REFUNDABLE IN WHOLE OR IN PART. ',
   manifestFooterLineOne:
     'PAID FOR BY ABSOLUTELY RIGHT AND NOT AUTHORIZED BY ANY CANDIDATE OR CANDIDATE’S COMMITTEE. 801 Twelve Oaks Center Drive Suite 806 Wayzata, MN 55391-462',
   manifestFooterLineTwo:
